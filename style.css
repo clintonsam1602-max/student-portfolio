@@ -115,3 +115,52 @@ footer {
     color: #94a3b8;
     border-top: 1px solid #27364d;
 }
+
+
+/* 5. Responsive design for phones and tablets */
+@media (max-width: 768px) {
+    header {
+        padding: 38px 15px;
+    }
+
+    header h1 {
+        font-size: 2.1rem;
+    }
+
+    nav {
+        gap: 12px 18px;
+    }
+
+    main {
+        margin: 22px auto;
+        padding: 0 14px;
+    }
+
+    section {
+        padding: 20px;
+        margin-bottom: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.95rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+
+    article {
+        padding: 14px;
+    }
+}
