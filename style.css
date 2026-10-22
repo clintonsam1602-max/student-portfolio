@@ -1,0 +1,117 @@
+
+/* 1. Basic page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    color: #e5e7eb;
+    background: #0b1120;
+}
+
+/* 2. Header and navigation */
+header {
+    text-align: center;
+    padding: 55px 20px;
+    background: linear-gradient(135deg, #172554, #0f172a);
+    border-bottom: 1px solid #334155;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #60a5fa;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #cbd5e1;
+    margin-bottom: 22px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+nav a {
+    color: #f8fafc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* 3. Main content */
+main {
+    max-width: 950px;
+    margin: 35px auto;
+    padding: 0 22px;
+}
+
+section {
+    background: #111c30;
+    padding: 28px;
+    margin-bottom: 24px;
+    border: 1px solid #27364d;
+    border-radius: 14px;
+}
+
+section h2 {
+    color: #60a5fa;
+    margin-bottom: 14px;
+}
+
+section p {
+    color: #cbd5e1;
+}
+
+ul {
+    padding-left: 24px;
+    color: #cbd5e1;
+}
+
+article {
+    background: #17243a;
+    padding: 18px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+
+article h3 {
+    color: #93c5fd;
+    margin-bottom: 6px;
+}
+
+#contact a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    background: #2563eb;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    background: #1d4ed8;
+}
+
+/* 4. Footer */
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    color: #94a3b8;
+    border-top: 1px solid #27364d;
+}
